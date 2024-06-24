@@ -9,45 +9,87 @@ body {
   font-weight: 200;
 }
 
-/* mobile **************************/
+/************************** HEADER **************************/
 header {
 	background-color: #cedbcd;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
+	position: relative;
 }
 
 h1 {
 	font-size: 2rem;
 }
 
+
+/************************** NAVIGATION **************************/
+button#hamburger {
+	background: none;
+	border: none;
+	display: block;
+	padding-bottom: .6rem;
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+	width: 50px;
+	cursor: pointer;
+}
+button#hamburger::before {
+	content: "\2630";
+}
+button#hamburger.show::before {
+	content: "x";
+}
+nav ul {
+	display: none;
+}
+nav ul.show {
+	display: block;
+}
+
 nav {
-	background-color: #225a20;
+	background-color: #154e13;
+	padding: 0;
+	margin: 0;
 }
 nav ul {
 	list-style-type: none;
 }
-nav a {
+nav li a {
 	display: block;
-	color: #d5f0db;
+	color: #fff;
 	text-align: center;
 	padding: .5rem;
 	text-decoration: none;
 }
 
 nav a:hover {
-	background-color: rgba(189, 154, 154, 0.2)
+	background-color: rgba(0,0,0,0.3);
 }
 
 .active {
 	background-color: rgba(0,0,0,0.2);
 }
 
+/* dark mode */
+#darkBtn {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	cursor: pointer;
+	width: 24px;
+}
 
 
-main {padding: 1rem;}
+/*========================================================*/
+main {
+	padding: 1rem; 
+}
 
+main.dark {background-color: #222;}
+main.dark h2 {color: white;}
 main h2 {
   padding: 1rem 1rem 0 1rem;
   margin-bottom: 1rem;
@@ -57,6 +99,8 @@ main section {
   border: 1px solid #eee;
   border-radius: 10px;
   overflow: hidden;
+	background-color: #eee;
+	margin-bottom: .5rem;
 }
 main h3 {
   background-color: #cedbcd;
@@ -72,6 +116,24 @@ main ul {
 }
 
 
+/*================= HERO =======================================*/
+.hero {width: 100%; position: relative;}
+.hero img {
+	width: 100%;
+	height: auto;
+}
+.hero div {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	padding: 1rem;
+	font-weight: 400;
+	color: #6f1e23;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 6px;
+	border-left: 3px solid #6f1e23;
+}
+/*========================================================*/
 footer {
   padding: 1rem;
   text-align: center;

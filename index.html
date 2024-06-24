@@ -33,6 +33,7 @@
         <img src="images/andre.jpg" alt="Andre Milford" width="50" height="64">
         <h1>Andre Milford</h1>
     </header>
+
     <nav>
         <ul>
           <li class="active"><a href="#">Home</a></li>
@@ -42,22 +43,34 @@
         </ul>
     </nav>
     <main>
+      <div class="hero">
+        <picture>
+          <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+          <img src="images/hero-large.webp" alt="hero" width="960" height="400">
+        </picture>
+        <div>Idaho Falls Temple</div>
+      </div>
+
         <h2>WDD 230: Web Frontend Development</h2>
-        <section>
-          <h3 class="card">Learning Activities</h3>
-          <ul>
-            <li><a href="#">Learning Activity</a></li>
-            <li><a href="#">Learning Activity</a></li>
-            <li><a href="#">Learning Activity</a></li>
-            <li><a href="#">Learning Activity</a></li>
-            <li><a href="#">Learning Activity</a></li>
-            <li><a href="#">Learning Activity</a></li>
-          </ul>
-        </section>
-        <section>
-          <h3 class="card">Information</h3>
-          <p>Weather Information goes here.</p>
-        </section>
+        <div class="sidebyside">
+          <section>
+            <h3 class="card">Learning Activities</h3>
+            <ul>
+              <li><a href="#">Learning Activity</a></li>
+              <li><a href="#">Learning Activity</a></li>
+              <li><a href="#">Learning Activity</a></li>
+              <li><a href="#">Learning Activity</a></li>
+              <li><a href="#">Learning Activity</a></li>
+              <li><a href="#">Learning Activity</a></li>
+            </ul>
+          </section>
+      
+          <section>
+            <h3 class="card">Information</h3>
+            <p id="visitCount"></p>
+            <p>Weather Information will go here.</p>
+          </section>
+        </div> <!-- end side by side -->
     </main>
     <footer>
         <p>&copy; <span id="year">year</span> Andre Milford &bull; Samoa</p>
