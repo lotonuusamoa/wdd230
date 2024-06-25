@@ -35,6 +35,7 @@
     </header>
 
     <nav>
+        <button id="hamburger"></button>
         <ul>
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">Chamber</a></li>
@@ -71,12 +72,16 @@
             <p>Weather Information will go here.</p>
           </section>
         </div> <!-- end side by side -->
+        <iframe loading="lazy" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAJifc7pwvUkN0yrtn7BPn8I-lRg33PSNc&center=-14.31493182,-170.69255&zoom=11&maptype=satellite" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p>&copy; <span id="year">year</span> Andre Milford &bull; Samoa</p>
         <p id="lastModified"></p>
       </footer>
       <script src="scripts/getDates.js"></script>
+      <script src="scripts/navigation.js"></script>
+      <script src="scripts/darkMode.js"></script>
+      <script src="scripts/visitcounter.js"></script>
 
 </body>
 </html>
