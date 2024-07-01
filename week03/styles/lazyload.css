@@ -142,6 +142,19 @@ section.gallerysquished img {
   border-radius: 4px;
 }
 
+figure {
+  animation: fade 15s;
+}
+
+@keyframes fade {
+0% {
+  opacity: 0;
+}  
+
+100%{
+  opacity: 1;
+}
+}
 
 
 
