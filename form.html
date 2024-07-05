@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230-Web Frontend Development, Andre Milford, course assignment portal">
+    <title>Andre Milford - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Andre Milford">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Andre Milford-WDD 230-Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lotonuusamoa.github.io/wdd230/images/website-image.JPG">
+    <meta property="og:url" content="https://lotonuusamoa.github.io/wdd230">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="WDD 230-Web Frontend Development, Andre Milford, course assignment portal.">
+    <meta property="og:site_name" content="BYU Idaho WDD 230">
+    <meta name="twitter:image:alt" content="Andre's website preview">
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="Andre Milford">
+    <meta name="twitter:site" content="Andre Milford">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@200;400&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <header>
+        <img src="images/andre.jpg" alt="Andre Milford" width="50" height="64">
+        <h1>Andre Milford</h1>
+        <img src="images/dark.svg" alt="dark mode" id="darkBtn">
+    </header>
+
+    <nav>
+        <button id="hamburger"></button>
+        <ul class="navigation">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="chamber/index.html">Chamber</a></li>
+          <li><a href="#">Site Plan</a></li>
+          <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+      <h2>Web Form</h2>
+      <form action="">
+      <label>Username:<input type="password" name="pass1" required pattern="[a-zA-Z0-9]{8,}"></label>
+      <label>Username:<input type="password" name="pass2" required pattern="[a-zA-Z0-9]{8,}"></label>
+      <div id="feedback"></div>
+      <label>BYUI Email:<input type="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid byui email address"></label>
+      <label>Page Rating (<span id="rating"></span>):<input type="range" name="rating" min="1" max="10" required></label>
+      <input type="submit" value="Send my Review">
+      </form>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="year">year</span> Andre Milford &bull; Samoa</p>
+        <p id="lastModified"></p>
+      </footer>
+      <script src="scripts/getDates.js"></script>
+      <script src="scripts/navigation.js"></script>
+      <script src="scripts/darkMode.js"></script>
+      <script src="scripts/visitcounter.js"></script>
+
+</body>
+</html>
