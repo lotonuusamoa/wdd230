@@ -1,8 +1,8 @@
 :root {
     --box-space: .5rem 16px;
-    --validColor: #00F;
-    --errorColor: #F00;
-    --accent-color: deeppink;
+    --validColor: rgb(51, 51, 255);
+    --errorColor: rgb(255, 137, 137);
+    --accent-color: rgb(209, 209, 209);
     --rounded: 6px;
   }
   
