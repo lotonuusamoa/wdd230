@@ -76,6 +76,11 @@
       border-radius: 12px;
     }
   
+    /*Join goes here*/
+    div.join {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    }
   
   
   
