@@ -1,0 +1,32 @@
+{
+    "familyName" : "Milford",
+    "movedIn" : 2024,
+    "numberOfRecords" : 8,
+    "visitedByBishopric" : true,
+    "members" : [
+      {
+        "name" : "Tasi",
+        "gender" : "M",
+        "dob" : "1999-01-08"
+       
+      },
+      {
+        "name" : "Lua",
+        "gender" : "F",
+        "dob" : "1984-08-11"
+       
+      },
+      {
+        "name" : "Tolu",
+        "gender" : "M",
+        "dob" : "1979-12-04"
+       
+      },
+      {
+        "name" : "Fa",
+        "gender" : "F",
+        "dob" : "1999-10-23"
+       
+      }
+    ]
+  }
