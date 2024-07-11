@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230-Web Frontend Development, Andre Milford, course assignment portal">
+    <meta name="description" content="Form Page">
     <title>Form Build-WDD 230-Web Frontend Development</title>
     <meta name="author" content="Andre Milford">
     <link href="styles/normalize.css" rel="stylesheet">
@@ -48,18 +48,7 @@
     </nav>
 
     <main>
-      <h2>Web Form</h2>
-      <form action="submit.php" method="POST" onsubmit="return validateForm()">
-        <label>Username:<input type="text" name="username" required pattern="[a-zA-Z0-9]{8,}" title="Username must be alphanumeric and at least 8 characters long"></label><br>
-        <label>Confirm Username:<input type="text" name="confirm_username" required pattern="[a-zA-Z0-9]{8,}" title="Please confirm your username"></label><br>
-        <div id="usernameFeedback"></div><br>
-        <label>BYUI Email:<input type="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid BYUI email address"></label><br>
-        <label>Page Rating (<span id="ratingValue">1</span>):<input type="range" name="rating" min="1" max="10" value="1" onchange="document.getElementById('ratingValue').textContent = this.value;" required></label><br>
-        <input type="submit" value="Send my Review">
-      </form>
-
-
-      <!-- 
+       
       <h2>Web Form</h2>
       <form action="">
       <label>Username:<input type="password" name="pass1" required pattern="[a-zA-Z0-9]{8,}"></label>
@@ -69,7 +58,6 @@
       <label>Page Rating (<span id="rating"></span>):<input type="range" name="rating" min="1" max="10" required></label>
       <input type="submit" value="Send my Review">
       </form>
-    -->
 
     </main>
 
