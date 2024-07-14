@@ -79,6 +79,11 @@ main h2 {
   color:#015f72;
   margin-left: 2vw;
 }
+main h3 {
+  color:#333;
+  margin-left: 2vw;
+}
+
 main p {
   color:#333;
   margin-left: 2vw;
@@ -166,6 +171,50 @@ form input[type='submit'] {
   font-weight: 600;
   background-color: #34f54e;
 }
+
+/*Members goes here*/
+div#theButtons {width: 100%; text-align: center;}
+div#theButtons button.active {background-color: #65e98c;}
+div#theButtons button {
+  margin: 0 1rem; 
+  padding: .7rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #f5a434;
+}
+div#members {
+  margin: 0 2vw;
+}
+/*GRID layout here*/
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap:8px;
+  justify-content: center;
+  
+}
+div.grid section {
+  text-align: center;
+  margin: 1rem 0;
+  border: dashed 1px #f5a434;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div.grid img:first-child {width: 100%;}
+div.grid h3 {margin: .2rem 0;}
+div.grid p {margin: .2rem 0;}
+
+
+/*LIST layout here*/
+div.list section {
+  display: grid;
+  grid-template-columns: auto auto auto auto 55px;
+  align-items: center;
+  margin: .5rem 0;
+  border: dashed 1px #979797;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div.list img:first-child {display: none;}
 
 
 /*Footer goes here*/

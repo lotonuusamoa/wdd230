@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chamber of Commerce Week 5">
+  <meta name="author" content="Andre Milford">
+
+  <meta property="og:title" content="Chamber - Directory">
+  <meta property="og:url" content="https://lotonuusamoa.github.io/wdd230">
+  <meta property="og:description" content="Week 2 WDD230">
+  <meta property="og:image" content="https://lotonuusamoa.github.io/wdd230/images/logo.png">
+
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  
+  <title>Chamber of Commerce Week 5</title>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Site Logo">
+    <div>
+    <h1>American Samoa</h1>
+    <p>Chamber of Commerce</p>
+  </div>
+    <nav>
+      <button id="menu-button">☰</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li class="active"><a href="#">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h1>Directory</h1>
+    <div id="theButtons">
+    <button id="btnGrid" class="active">Grid</button><button id="btnList">List</button>
+    </div>
+    <div id="members" class="grid"></div>
+  </main>
+
+  <footer>
+    <section>
+      <img src="images/logo.png" alt="Site Logo">
+    <div>
+    <p>American Samoa Chamber of Commerce</p>
+    <p>Utulei EOB Gov Bldg</p>
+    <p>Pago Pago, AS 96799</p>
+  </div>
+    </section>
+    <section>
+      <p>Contact Us</p>
+      <p>info@aschamber.com</p>
+      <p><a href="tel:1-684-633-0034">1-684-633-0034</a></p>
+      <p>Find us on <a href="#">Google Maps</a></p>
+    </section>
+    <section >
+      <p>&copy;2024 American Samoa Chamber</p>
+      <p>Andre Milford</p>
+      <p>WDD 230 Class Project</p>
+      <p id="lastModified">placeholder</p>
+    </section>
+  </footer>
+  <script src="scripts/scripts.js"></script>
+  <script src="scripts/members.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+{
+    "members": [
+    {
+        "name": "American Samoa Power Authority",
+        "address":"123 Airport St, Pago Pago, AS 96799",
+        "phone": "684-699-1234",
+        "url" :"http://www.aspower.com",
+        "logopath": "logo1.png",
+        "level": 3
+    },
+    {
+        "name": "Bluesky Communications",
+        "address":"478 laufou Nuuuli St, Pago Pago, AS 96799",
+        "phone": "684-699-2759",
+        "url" :"https://bluesky.as",
+        "logopath": "logo2.png",
+        "level": 1
+    },
+    {
+        "name": "American Samoa Telecommunication",
+        "address":"Tafuna ASTCA Blg #1, Pago Pago, AS 96799",
+        "phone": "684-699-3000",
+        "url" :"https://astca.net",
+        "logopath": "logo3.png",
+        "level": 2
+    },
+    {
+        "name": "Lotonuu Samoa",
+        "address":"6306 Iliili, Tutuila, AS 96799",
+        "phone": "684-258-8448",
+        "url" :"https://lotonuu.com/",
+        "logopath": "logo4.png",
+        "level": 3
+    },
+    {
+        "name": "Neil's Ace Home Center",
+        "address":"PO Box 385, Pago Pago, AS 96799",
+        "phone": "684-699-9770",
+        "url" :"neilsace.com/",
+        "logopath": "logo5.png",
+        "level": 2
+    },
+    {
+        "name": "Cost-U-Less",
+        "address":"Ottoville Center, Pago Pago, AS 96799",
+        "phone": "684-699-5977",
+        "url" :"http://www.costuless.com/american-samoa",
+        "logopath": "logo6.png",
+        "level": 1
+    },
+    {
+        "name": "Samoa Motors-Ford Dealer",
+        "address":"1120 Tafuna Industrial Park",
+        "phone": "684-699-9347",
+        "url" :"https://www.samoamotors.com/",
+        "logopath": "logo7.png",
+        "level": 0
+    },
+    {
+        "name": "AS Department of Commerce",
+        "address":"AP Lutali Bldg, Utulei, AS 96799",
+        "phone": "684-633-5155",
+        "url" :"https://doc.as.gov/",
+        "logopath": "logo8.png",
+        "level": 3
+    }
+]
+}
