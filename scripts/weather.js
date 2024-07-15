@@ -3,7 +3,7 @@
 const myAPI = "437209d363a4387bb2f5dffcea58bbee"
 const myWeather = `//api.openweathermap.org/data/2.5/weather?zip=84653,us&appid=437209d363a4387bb2f5dffcea58bbee&units=imperial`
 
-// ========== Grab the weather data and W A I T
+// ========== Grab the weather data
 fetch(myWeather)
 .then((response) => response.json())
 .then((allData) => {
