@@ -1,4 +1,6 @@
-const url = "./data/links.json";
+//const url = "./data/links.json";
+const url = "https://lotonuusamoa.github.io/wdd230/data/links.json";
+
 
 async function goFetchData() {
   const response = await fetch(url);
