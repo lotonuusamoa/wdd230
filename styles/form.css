@@ -11,7 +11,7 @@
     display: block;
     margin: var(--box-space);
   }
-  form input[type="password"], form input[type="email"]{
+  form input[type="username"], form input[type="password"], form input[type="email"]{
     display: block;
     border: 1px solid #aaa;
     border-left-width: 6px;
