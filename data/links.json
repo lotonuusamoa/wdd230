@@ -75,16 +75,18 @@
             "url": "https://codepen.io/Andre-M-the-looper/pen/JjQGqoE"
           },
           {
-              "url": "./week04/tablebuild.html",
-              "title": "Table Build"
+            "title": "Table Build",  
+            "url": "./week04/tablebuild.html"
+              
           },
           {
-              "url": "./week04/form/index.html",
-              "title": "Form Build"
+            "title": "Form Build", 
+            "url": "./week04/form/index.html"
+              
           },
           {
-              "url": "./chamber/join.html",
-              "title": "Chamber of Commerce Join Page"
+            "title": "Chamber of Commerce Join Page", 
+            "url": "./chamber/join.html"
           }
         ]
       },
@@ -92,16 +94,23 @@
         "week": "Week 05",
         "links": [
           {
-            "title": "Assignment A",
-            "url": "assignment1.html"
+            "title": "JSON file",
+            "url": "./week05/new-ward-members.json"
           },
           {
-            "title": "Assignment B",
-            "url": "assignment2.html"
+              "title": "Prophets fetch() practice",
+              "url": "./week05/prophets.html"
+              
           },
           {
-            "title": "Assignment C",
-            "url": "assignment3.html"
+              "title": "Third-Party API",
+              "url": "./week05/weather.html"
+              
+          },
+          {
+              "title": "Chamber of Commerce Directory Page",
+              "url": "./chamber/directory.html"
+              
           }
         ]
       }
