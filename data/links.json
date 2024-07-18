@@ -4,16 +4,20 @@
         "week": "Week 01",
         "links": [
           {
-            "title": "Assignment A",
-            "url": "assignment1.html"
+            "title": "Layout",
+            "url": "./week01/holygrail.html"
           },
           {
-            "title": "Assignment B",
-            "url": "assignment2.html"
+            "title": "Applied Javascript",
+            "url": "https://codepen.io/Andre-M-the-looper/pen/VwJeRBZ"
           },
           {
-            "title": "Assignment C",
-            "url": "assignment3.html"
+            "title": "CSS Media Queries",
+            "url": "./week01/media-query.html"
+          },
+          {
+            "title": "Chamber Site Plan",
+            "url": "./week01/chamber-site-plan.html"
           }
         ]
       },
@@ -21,16 +25,20 @@
         "week": "Week 02",
         "links": [
           {
-            "title": "Assignment A",
-            "url": "assignment1.html"
+            "title": "Design",
+            "url": "./week02/design.html"
           },
           {
-            "title": "Assignment B",
-            "url": "assignment2.html"
+            "title": "Hamburger Menu",
+            "url": "https://codepen.io/Andre-M-the-looper/pen/zYQWMZm"
           },
           {
-            "title": "Assignment C",
-            "url": "assignment3.html"
+            "title": "JavaScript: DOM Manipulation",
+            "url": "./week02/bom.html"
+          },
+          {
+            "title": "Chamber of Commerce Home",
+            "url": "./chamber/index.html"
           }
         ]
       },
