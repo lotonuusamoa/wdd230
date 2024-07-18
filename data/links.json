@@ -46,16 +46,24 @@
         "week": "Week 03",
         "links": [
           {
-            "title": "Assignment A",
-            "url": "assignment1.html"
+            "title": "WebP Image File Format",
+            "url": "./week03/images/landscape.webp"
           },
           {
-            "title": "Assignment B",
-            "url": "assignment2.html"
+            "title": "Lazy Loading",
+            "url": "./week03/lazyload.html"
           },
           {
-            "title": "Assignment C",
-            "url": "assignment3.html"
+            "title": "Responsive Images",
+            "url": "./week03/responsive-images.html"
+          },
+          {
+              "title": "Web Storage API",
+              "url": "./week03/bom.html"
+          },
+          {
+              "title": "Chamber of Commerce Discover page",
+              "url": "./chamber/discover.html"
           }
         ]
       },
@@ -63,16 +71,20 @@
         "week": "Week 04",
         "links": [
           {
-            "title": "Assignment A",
-            "url": "assignment1.html"
+            "title": "Pseudo-Class CodePen",
+            "url": "https://codepen.io/Andre-M-the-looper/pen/JjQGqoE"
           },
           {
-            "title": "Assignment B",
-            "url": "assignment2.html"
+              "url": "./week04/tablebuild.html",
+              "title": "Table Build"
           },
           {
-            "title": "Assignment C",
-            "url": "assignment3.html"
+              "url": "./week04/form/index.html",
+              "title": "Form Build"
+          },
+          {
+              "url": "./chamber/join.html",
+              "title": "Chamber of Commerce Join Page"
           }
         ]
       },
