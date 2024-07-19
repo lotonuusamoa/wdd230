@@ -4,15 +4,15 @@ body{
   color: #333;
   }
   header {
-    border-bottom: 1px solid #f5a434;
+    border-bottom: 1px solid #007413;
   }
   h1 {
-    color:#f5a434;
+    color:#31dd2b;
   }
   h2{
-    color:#015f72;
+    color:#033a18;
   }
   footer {
     text-align: center;
-    color:#f5a434;
+    color:#00a82a;
   }
