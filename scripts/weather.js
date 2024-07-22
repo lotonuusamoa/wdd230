@@ -1,8 +1,8 @@
 //Current Weather
 
-//const myAPI = "437209d363a4387bb2f5dffcea58bbee"
+
 const myAPI = "4fd1f0583ce4f801e0020260c5375277"
-//const myWeather = `//api.openweathermap.org/data/2.5/weather?zip=84653,us&appid=437209d363a4387bb2f5dffcea58bbee&units=imperial`
+
 const myWeather = `//api.openweathermap.org/data/2.5/weather?lat=-14.336020&lon=-170.731445&appid=4fd1f0583ce4f801e0020260c5375277&units=imperial`
 // ========== Grab the weather data
 fetch(myWeather)
