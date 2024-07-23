@@ -4,7 +4,6 @@ async function getMembers() {
   const response = await fetch(url);
   const data = await response.json();
   const allMembers = data.members
-  //console.log(allMembers)
   const specialMembers = data.members.filter(x => x.level > 1);
   displayMembers(specialMembers)
 }
@@ -13,22 +12,17 @@ getMembers();
 
 const displayMembers = (spotList) => {
   for (let i = 0; i < 3; i++) {
-    //console.log(spotList)
-    //console.log(spotList.length)
+    
     randomSpot = Math.floor(Math.random() * spotList.length);
-    //console.log(randomSpot)
     selectedSpot = spotList[randomSpot]
     spotList.splice(randomSpot, 1);
-    //console.log(selectedSpot)
-    //console.log(spotList)
-    displaySpot(selectedSpot)
+     displaySpot(selectedSpot)
   }
 }
 
 
 const spotCards = document.querySelector('#cards')
 function displaySpot(x) {
-  //console.log(x)
   const mySpot = document.createElement('section')
   mySpot.className = "spot"
   const myHeader = document.createElement('span')
