@@ -216,6 +216,50 @@ div.list section {
 }
 div.list img:first-child {display: none;}
 
+/* dark mode */
+#darkBtn {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	cursor: pointer;
+	width: 24px;
+}
+
+
+/*========================================================*/
+main {
+	padding: 1rem; 
+}
+
+main.dark {background-color: #222;}
+main.dark h2 {color: rgb(53, 52, 52);}
+main h2 {
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 1rem;
+  border-bottom: dashed 1px rgba(0,0,0,0.5);
+}
+main section {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+	background-color: #eee;
+	margin-bottom: .5rem;
+}
+main h3 {
+  background-color: #eee;
+  text-align: center;
+  padding: .5rem;
+}
+main p{
+  margin: 1rem;
+}
+main ul {
+  list-style-position: inside;
+  margin: 1rem;
+}
+
+/*========================================================*/
+
 
 /*Footer goes here*/
 footer {
