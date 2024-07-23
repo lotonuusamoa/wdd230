@@ -119,8 +119,9 @@ div.cards{
   padding: 1rem 2vw;
 }
 div.cards section {
-  border: 1px dashed #435e4b;
+  border: 1px dashed #4b4b4b;
   width: 100%;
+  background-color: #e7f7fd;
   padding: 1rem 2vw;
 }
 div.cards section h2 {margin-top: 0;}
@@ -131,7 +132,7 @@ section.gallery figure {
 }
 section.gallery figcaption {
   text-align: center;
-  color: #666;
+  color: #929292;
   font-weight: 600;;
 }
 section.gallery img {
@@ -239,7 +240,7 @@ main h2 {
   border-bottom: dashed 1px rgba(0,0,0,0.5);
 }
 main section {
-  border: 1px solid #eee;
+  border: 1px solid #dddddd;
   border-radius: 10px;
   overflow: hidden;
 	background-color: #eee;
