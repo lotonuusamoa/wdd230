@@ -1,5 +1,6 @@
 //Member Spotlight
 const url = 'https://lotonuusamoa.github.io/wdd230/chamber/data/members.json';
+
 async function getMembers() {
   const response = await fetch(url);
   const data = await response.json();

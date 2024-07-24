@@ -32,7 +32,7 @@ const displayMembers = (allMembers) => {
         myLevel.src = "./images/level-silver.png"
         myLevel.alt="Silver"
         break;
-        case 3:
+      case 3:
           myLevel.src = "./images/level-gold.png"
           myLevel.alt="Gold"
         break;
